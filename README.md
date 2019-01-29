@@ -1,6 +1,6 @@
 # Vaja4_interupt_tipka_LED
 __________________________________________________________________________________________________________________________________________
-ODGOVIRI:
+ODGOVORI:
 a) Glede na vašo razvojno ploščico in razširitveno vezje s tipkami, izberite ustrezen digitalni vhod kot interrupt (GPIO_EXT…) in izhod za zeleno LED. Zapišite izbrana pina: PA0 (GPIO EXTIO), PC9 (Green LED), PC8 (Blue LED)
 b) V user code begin 4 zapišite funkcijo za klic callback funkcije prekinitve:
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
